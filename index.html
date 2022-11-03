@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/logo.png" sizes="72x72" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <title>Moon River</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="header__menu-container">
+        <div class="header__menu">
+            <div class="header__logo">
+                <img src="img/logo.png" alt="cover">
+                <p>womazing</p>
+            </div>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="__hover menu__item_active" href="index.html">Главная</a></li>
+                    <li class="menu__item"><a class="__hover" href="pages/indexMagazine.html">Магазин</a></li>
+                    <li class="menu__item"><a class="__hover" href="pages/indexInfo.html">О бренде</a></li>
+                    <li class="menu__item"><a class="__hover" href="pages/indexContacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__calls">
+                <div href="#" class="phone"></div>
+                <p><a class="header__calls_number" href="tel:+7(495)823-54-12">+7 (495) 823-54-12</a></p>
+            </div>
+            <div class="bucket"><span></span><a href="pages/indexBin.html"><img src="img/bucket.png" alt="cover"></a></div>
+            <div class="menu__logo">
+                  <span>
+                  </span>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__menu-space"></div>
+
+                <div class="header__title __title __slider">
+                    <span class="__slider_active">Новые поступления в этом сезоне</span>
+                    <span>Включай новый сезон с WOMAZING</span>
+                    <span>Что-то новенькое. Мы заждались тебя</span>
+                </div>
+                <div class="header__text __slider">
+                    <p class="__slider_active">Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом
+                        сезоне. Время исследовать.</p>
+                    <p>Мы обновили ассортимент - легендарные коллекции и новинки от отечественных дизайнеров</p>
+                    <p>Надоело искать себя в сером городе? Настало время новых идей, свежих красок и вдохновения с
+                        Womazing!</p>
+                </div>
+
+                <div class="header__open-magazine">
+                    <a class="scroll__to-collection" href="#colliction">
+                        <button class="header__open-arrow"><img src="img/arrowDown.png" alt=""></button>
+                    </a>
+                    <a href="pages/indexMagazine.html">
+                        <button class="header__open-button">Открыть магазин</button>
+                    </a>
+                </div>
+                <div class="header__swap-button">
+                    <button id="slider__button_0" class="slider__button header__swap-button_active"></button>
+                    <button id="slider__button_1" class="slider__button"></button>
+                    <button id="slider__button_2" class="slider__button"></button>
+                </div>
+            </div>
+            <div class="header__right">
+                <div class="header__canvas">
+                    <div class="header__central-img __slider">
+                        <img class="header__central-img img __slider_active" src="img/headerimg.png" alt="cover">
+                        <img class="header__central-img img" src="img/headerimg2.png" alt="cover">
+                        <img class="header__central-img img" src="img/headerimg3.png" alt="cover">
+                    </div>
+                    <img class="header__absf-img" src="img/headersmallestimg.png" alt="cover">
+                    <img class="header__abst-img" src="img/headersmalimg.png" alt="cover">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-block">
+        <div class="container">
+            <div id="colliction" class="collection-container">
+                <h1 class="__title">Новая коллекция</h1>
+                <div class="collection-container__gallery">
+
+                    <a href="pages/oneItem.html" onclick="buyItem(0)">
+                        <div class="collection-container__slide">
+                            <div class="collection-container__image"><img src="img/slider-1.png" alt="cover"></div>
+                            <p class="collection-container__image_name">Футболка USA1</p>
+                            <p class="collection-container__image_price">$<s
+                              class="collection-container__image_price">229</s> $129</p>
+                        </div>
+                    </a>
+                    <a href="pages/oneItem.html" onclick="buyItem(1)">
+                        <div class="collection-container__slide">
+                            <div class="collection-container__image"><img src="img/slider-2.png" alt="cover"></div>
+                            <p class="collection-container__image_name">Купальник Glow1</p>
+                            <p class="collection-container__image_price">$129</p>
+                        </div>
+                    </a>
+                    <a href="pages/oneItem.html" onclick="buyItem(2)">
+                        <div class="collection-container__slide">
+                            <div class="collection-container__image"><img src="img/slider-3.png" alt="cover"></div>
+                            <p class="collection-container__image_name">Свитшот Sweet Shot1</p>
+                            <p class="collection-container__image_price">$129</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="collection-container__buttons">
+                    <a href="pages/indexMagazine.html">
+                        <button class="collection-container__button">Открыть магазин</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="important-container">
+                <h1 class="__title">Что для нас важно</h1>
+                <div class="important-container__content">
+                    <div class="important-container__content_cards">
+                        <img src="img/quality.png" alt="cover">
+                        <h2 class="__subtitle">Качество</h2>
+                        <p>Наши профессионалы работают на лучшем оборудовании для пошива одежды беспрецедентного
+                            качества</p>
+                    </div>
+                    <div class="important-container__content_cards">
+                        <img src="img/setting.png" alt="cover">
+                        <h2 class="__subtitle">Скорость</h2>
+                        <p>Благодаря отлаженной системе в Womazing мы можем отшивать до 20-ти единиц продукции в наших
+                            собственных цехах</p>
+                    </div>
+                    <div class="important-container__content_cards">
+                        <img src="img/hand.png" alt="cover">
+                        <h2 class="__subtitle">Ответственность</h2>
+                        <p>Мы заботимся о людях и планете. Безотходное производство и комфортные условия труда - все это
+                            Womazing</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="teamates-container">
+                <h1 class="__title">Команда мечти WOMAZING</h1>
+                <div class="teamates__slider">
+                    <div class="teamates__slide">
+                        <div class="teamates__slide-images">
+                            <img class="teamates__slide-images_active" src="img/slider-2_1.png" alt="cover">
+                            <img src="img/slider-2_2.png" alt="cover">
+                            <img src="img/slider-2_3.png" alt="cover">
+                        </div>
+                        <div class="teamates__swap-buttons">
+                        </div>
+                        <div class="teamates__slide_left-arr"></div>
+                        <div class="teamates__slide_right-arr"></div>
+                    </div>
+                    <div class="teamates__text">
+                        <h2 class="__subtitle">Для каждой</h2>
+                        <p>Каждая девушка уникальна. Однако, мы схожи в миллионе мелочей.</p>
+                        <p>Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства
+                            каждой девушки.</p>
+                        <a class="__hover" href="#">Подробнее о бренде</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer__logo">
+                    <div class="footer__logo_logotype">
+                        <img src="img/logo.png" alt="cover">
+                        <p>womazing</p>
+                    </div>
+                    <div class="footer__logo_text">
+                        <p>© Все права защищены</p>
+                        <p>Политика конфиденциальности</p>
+                        <p>Публичная оферта</p>
+                    </div>
+                </div>
+
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item menu__item_active"><a class="__hover" href="#">Главная</a></li>
+                        <li class="menu__item">
+                            <a class="__hover" href="pages/indexMagazine.html">Магазин</a>
+                            <ul class="menu__magazine">
+                                <li><a class="__hover" href="pages/magazineCoat.html">Пальто</a></li>
+                                <li><a class="__hover" href="pages/magazineSvitshot.html">Свитшоты</a></li>
+                                <li><a class="__hover" href="pages/magazineCardigans.html">Кардиганы</a></li>
+                                <li><a class="__hover" href="pages/magazineSweatshirts.html">Толстовки</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item"><a class="__hover" href="pages/indexInfo.html">О бренде</a></li>
+                        <li class="menu__item"><a class="__hover" href="pages/indexContacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer__contact">
+                    <p>+7 (495) 823-54-12</p>
+                    <p>hello@womazing.com</p>
+                    <div class="footer__contact_social">
+                        <img src="img/instagram.png" alt="cover">
+                        <img src="img/facebook.png" alt="cover">
+                        <img src="img/twitter.png" alt="cover">
+                    </div>
+                    <div class="footer__contact_card">
+                        <img src="img/visa-mastercard.png" alt="cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="popup-call-back">
+        <div class="popup-call-back__body">
+            <form action="#">
+                <h2 class="popup-call-back__title __subtitle">Заказать обратный звонок</h2>
+                <div class="popup-call-back__item">
+                    <label for="formname"></label>
+                    <input required id="formname" name="name" placeholder="Имя" class="send-form__input">
+                </div>
+                <div class="popup-call-back__item">
+                    <label for="formmail"></label>
+                    <input required id="formmail" name="email" placeholder="E-mail" class="send-form__input">
+                </div>
+                <div class="popup-call-back__item">
+                    <label for="formphone"></label>
+                    <input required id="formphone" name="phone" placeholder="Телефон" class="send-form__input">
+                </div>
+                <button type="submit" class="popup-call-back__send-call header__open-button">Заказать звонок</button>
+                <div class="popup-call-back__close">
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/magazineBase.js"></script>
+<script type="text/javascript" src="js/buyItems.js"></script>
+</body>
+</html>
